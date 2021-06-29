@@ -2,7 +2,6 @@
     --lightblue: #4997D0;
     --green: #448127;
     --tan: #F9F0AA;
-    font-size: 1em;
 }
 
 html, body {
@@ -30,13 +29,6 @@ header {
     
 }
 
-h1 {
-    margin: 0.5em;
-    padding: 0;
-    font-size: 1.5em;
-    color: white;
-}
-
 ol {
     list-style-type: none;
     display: flex;
@@ -47,14 +39,13 @@ ol {
 }
 
 nav {
-    margin: 0 1em;
+    margin: 0 1rem;
 }
 
 li {
-    margin: 0.1rem;
+    margin: 0.5rem;
     padding: 0;
-    font-size: 0.80em;
-    width: 5em;
+    font-size: 0.80rem;
     text-decoration: none;
     color: white;
     cursor: pointer;
@@ -75,15 +66,29 @@ section {
     height: 100%;
 }
 
+h1 {
+    margin: 0.5rem;
+    padding: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
 h2 {
     color: black;
-    font-size: 3em;
-    margin: 0.5em 1em;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    margin: 0.5rem 0;
 }
 
 p {
-    font-size: 1em;
+    font-size: 1rem;
     padding: 0;
+    margin: 0;
 }
 
 button {
@@ -100,6 +105,12 @@ button {
     padding: 0 5%;;
 }
 
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
 .viewHeading {
     margin: 0;
 }
@@ -112,4 +123,10 @@ button {
 .btnContainer {
     display: flex;
     text-align: center;
+}
+
+@media  and (min-width: 320) {
+    html {
+        font-size: 8px;
+    }
 }
