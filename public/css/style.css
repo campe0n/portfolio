@@ -106,6 +106,7 @@ button {
 
 .projectImage {
     margin: 20%;
+    cursor: pointer;
 }
 
 .btnContainer {
