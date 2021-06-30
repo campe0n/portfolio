@@ -106,9 +106,7 @@ button {
 }
 
 .contentContainer {
-    display: flex;
-    flex-direction: column;
-    padding: 0.5rem;
+    
 }
 
 .viewHeading {
@@ -123,6 +121,12 @@ button {
 .btnContainer {
     display: flex;
     text-align: center;
+}
+
+.tophalf {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
 }
 
 @media  and (min-width: 320) {
