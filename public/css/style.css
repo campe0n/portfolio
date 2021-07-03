@@ -177,6 +177,12 @@ button {
     padding: 0 0 0 0.25rem;
 }
 
+@media only screen and (min-width: 320px) {
+    html {
+        font-size: 6px;
+    }
+}
+
 @media only screen and (min-width: 425px) {
     html {
         font-size: 8px;
@@ -184,9 +190,20 @@ button {
 }
 
 
-@media only screen and (max-width: 768) {
+@media only screen and (min-width: 768px) {
     html {
         font-size: 12px;
     }
 }
 
+@media only screen and (min-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    html {
+        font-size: 20px;
+    }
+}
