@@ -4,4 +4,4 @@ Portofolio is my personal portfolio webpage. You can find my resume and ways to 
 
 ## Screenshot
 
-![Portfolio Screenshot](C:\Users\Melvin\Documents\Git\portfolio\public\images\portfolioss.png)
+![Portfolio Screenshot](public\images\portfolioss.png)
