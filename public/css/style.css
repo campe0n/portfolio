@@ -26,7 +26,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 ol {
@@ -76,7 +75,7 @@ h1 {
 h2 {
     color: black;
     font-size: 2rem;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
 }
 
 h3 {
@@ -106,7 +105,9 @@ button {
 }
 
 .contentContainer {
-    
+    display: flex;
+    flex-direction: column;
+    padding: 0;
 }
 
 .viewHeading {
@@ -123,14 +124,69 @@ button {
     text-align: center;
 }
 
-.tophalf {
+.contactinfo {
     display: flex;
-    flex-direction: column;
-    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
 }
 
-@media  and (min-width: 320) {
+.infoDiv {
+    margin: 0 1rem;
+}
+
+.contactHeader {
+    font-weight: bold;
+}
+
+.contactContent {
+    font-weight: 200;
+}
+
+.row {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.left {
+    width: 10rem;
+}
+
+.right {
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.header {
+    padding:0;
+    font-size: 1.25rem;
+}
+
+.subH {
+    margin: 0;
+    padding: 0;
+}
+
+.resumeItem {
+    color: black;
+    margin: 0.1rem 0;
+    padding: 0 0 0 0.25rem;
+}
+
+@media only screen and (min-width: 425px) {
     html {
         font-size: 8px;
     }
 }
+
+
+@media only screen and (max-width: 768) {
+    html {
+        font-size: 12px;
+    }
+}
+
