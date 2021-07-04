@@ -89,8 +89,13 @@ p {
 
 button {
   background: black;
+  width: 4rem;
+  height: 2rem;
   color: white;
   cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.1rem 1rem 0 black;
 }
 
 .viewContainer {
