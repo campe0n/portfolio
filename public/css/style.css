@@ -112,6 +112,10 @@ button {
   padding: 0;
 }
 
+.projectContainer {
+  display: flex;
+}
+
 .buttonContainer {
   display: flex;
   justify-content: center;
