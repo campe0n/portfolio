@@ -73,6 +73,7 @@ h1 {
   font-size: 2rem;
   margin: 1rem 0;
   border-bottom-style: solid;
+  width: 100%;
 }
 
 h2 {
@@ -114,6 +115,9 @@ button {
 
 .projectContainer {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }
 
 .buttonContainer {
