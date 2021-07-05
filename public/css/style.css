@@ -212,8 +212,13 @@ button {
 }
 
 @media only screen and (max-width: 425px) {
-  section {
+  html {
     width: 100%;
+    height: 100%;
+  }
+  section {
+    width: auto;
+    padding: 0 1rem;
   }
 }
 
