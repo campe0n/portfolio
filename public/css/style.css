@@ -88,6 +88,11 @@ p {
   margin: 0;
 }
 
+img {
+  width: 20rem;
+  height: 10rem;
+}
+
 button {
   background: black;
   width: 4rem;
@@ -130,14 +135,11 @@ button {
   margin: 0;
 }
 
-.projectImage {
-  margin: 20%;
-  cursor: pointer;
-}
 
 .btnContainer {
   display: flex;
   text-align: center;
+  margin: 1.5rem 0;
 }
 
 .contactinfo {
