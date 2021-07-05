@@ -54,7 +54,20 @@ li {
 
 a {
   text-decoration: none;
-  margin: 1rem;
+  margin: 0;
+}
+
+a:hover {
+  background-color: gray;
+  color: black;
+}
+
+a:focus {
+  background-color: rgb(61, 61, 68);
+}
+
+.hbtn {
+  margin: 0;
 }
 
 section {
@@ -66,6 +79,7 @@ section {
   background-color: white;
   width: 50%;
   height: 100%;
+  padding: 0 1rem;
 }
 
 h1 {
@@ -97,6 +111,7 @@ button {
   background: black;
   width: 4rem;
   height: 2rem;
+  margin: 0.5rem;
   color: white;
   cursor: pointer;
   border: none;
@@ -106,40 +121,36 @@ button {
 
 .viewContainer {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 5%;
 }
 
 .contentContainer {
   display: flex;
   flex-direction: column;
-  padding: 0;
 }
 
 .projectContainer {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
 }
 
 .buttonContainer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 .viewHeading {
   margin: 0;
-}
-
-
-.btnContainer {
-  display: flex;
-  text-align: center;
-  margin: 1.5rem 0;
 }
 
 .contactinfo {
