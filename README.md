@@ -7,6 +7,6 @@ Portofolio is my personal portfolio webpage. You can find my resume and ways to 
 
 ## Screenshot
 
-![Portfolio Screenshot](/images/newPortfolio.png)
+![Portfolio Screenshot](https://github.com/campe0n/portfolio/blob/master/public/images/newPortfolio.png)
 
 ***
