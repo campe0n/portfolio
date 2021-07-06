@@ -1,7 +1,6 @@
 :root {
   --lightblue: #4997d0;
   --green: #448127;
-  --tan: #f9f0aa;
 }
 
 html,
@@ -193,7 +192,7 @@ button {
     font-size: 12px;
   }
   section {
-    width: 100%;
+    width: 85%;
     padding: 0;
   }
 }
